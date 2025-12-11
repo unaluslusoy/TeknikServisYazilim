@@ -12,7 +12,7 @@ from PyQt6.QtWidgets import QApplication
 from PyQt6.QtCore import QTimer
 from ui.dialogs.splash_screen import SplashScreen
 from ui.dialogs.login_dialog import LoginDialog
-from ui.main_window import MainWindow
+from ui.modern_main_window import MainWindow
 
 
 def main():
