@@ -33,7 +33,7 @@ class LoginDialog(QDialog):
         # Ana layout
         main_layout = QVBoxLayout()
         main_layout.setContentsMargins(40, 30, 40, 30)
-        main_layout.setSpacing(20)
+        main_layout.setSpacing(15)
         self.setLayout(main_layout)
 
         # Logo
@@ -157,11 +157,13 @@ class LoginDialog(QDialog):
         demo_label.setFont(QFont("Segoe UI", 9))
         demo_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
         demo_label.setStyleSheet("""
-            color: #999; 
-            background-color: #FFF3E0;
-            padding: 8px;
-            border-radius: 5px;
-            margin-top: 10px;
+ istiyorum kullanışlı            QLabel {
+                color: #E65100; 
+                background-color: #FFF3E0;
+                padding: 10px;
+                border-radius: 5px;
+                border: 1px solid #FFE0B2;
+            }
         """)
         main_layout.addWidget(demo_label)
 
@@ -169,7 +171,7 @@ class LoginDialog(QDialog):
         version_label = QLabel("v1.0.0")
         version_label.setFont(QFont("Segoe UI", 8))
         version_label.setAlignment(Qt.AlignmentFlag.AlignCenter)
-        version_label.setStyleSheet("color: #999; margin-top: 10px;")
+        version_label.setStyleSheet("color: #999;")
         main_layout.addWidget(version_label)
 
         # Arka plan rengi
