@@ -1,0 +1,36 @@
+# GUI Framework
+PyQt6>=6.5.0
+PyQt6-Charts>=6.5.0
+
+# Database
+SQLAlchemy>=2.0.0
+alembic>=1.12.0
+
+# PDF Generation & Reports
+reportlab>=4.0.0
+openpyxl>=3.1.0
+
+# Barcode & QR Code
+python-barcode>=0.15.0
+qrcode>=7.4.0
+Pillow>=10.0.0
+
+# Printer Support
+python-escpos>=3.0
+pywin32>=306
+
+# HTTP & API
+requests>=2.31.0
+
+# Security & Authentication
+bcrypt>=4.0.0
+
+# Email Support
+Jinja2>=3.1.0
+premailer>=3.10.0
+email-validator>=2.0.0
+
+# Utilities
+python-dateutil>=2.8.0
+pytz>=2023.3
+
